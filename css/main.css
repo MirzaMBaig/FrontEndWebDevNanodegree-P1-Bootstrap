@@ -1,158 +1,31 @@
-* {
-	#border: 1px solid red !important;
-}
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-* {
+body {
 	font-family: 'Lato', sans-serif;
-}
-@media only screen and (max-width: 500px){
-	p {
-		display: none;
-	}
+	font-weight: 300;
+	color: #747704;
 }
 
-@media only screen and (max-width: 500px) and (orientation: landscape){
-	p {
-		#display: none;
-	}
+.text-muted{
+	color: #BCBBBB;
 }
 
-@media only screen and (min-width: 500px){
-	p {
-		#display: flex;
-	}
+.text-thin{
+	font-weight: 100;
+	color: #747704;
 }
 
-@media only print and (max-width: 500px){
-	p {
-		#display: none;
-	}
+.title-super{
+	font-size: 50px;
+}
+
+.title-logo{
+	margin-top: 20px;
 }
 
 hr {
-  border: 0;
-  width: 100%;
-	background-color: #BCBBBB;
-	height: 3px;
-}
-
-h2{
-    font: inherit;
-    font-size: 3em;
-    font-weight: 300;
-		margin: 20px 5px 5px 5px;
-}
-
-h3{
-	font: inherit;
-	font-size: 25px;
-	font-weight: 600;
-	margin: 5px;
-
-}
-.grid {
-	margin: 0 auto;
-	max-width: 960px;
-	width:100%
-}
-.row {
+	border: 0;
 	width: 100%;
-	display: flex;
-}
-
-.header-inside-row {
-    width: 100%;
-    text-align: right;
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 0px;
-}
-
-.content-image-row {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-		padding:0px;
-}
-
-.content-inside-row {
-    width: 100%;
-    text-align: center;
-    margin: 0px;
-}
-
-.col-gap {
-	width:20px;
-}
-
-.col-1 {
-	width: 8.33%;
-}
-.col-2 {
-	width:16.66%
-}
-.col-3 {
-	width:25%
-}
-
-.col-4 {
-	width:33.33%;
-}
-
-.col-5 {
-	width:41.66%;
-}
-.col-6 {
-    width:50%;
-}
-.col-6-right {
-	width:50%;
-    text-align: right;
-}
-.col-7 {
-	width:58.33%
-}
-.col-8 {
-	width:66.66%
-}
-.col-9 {
-	width:75%
-}
-.col-10 {
-	width:83.33%
-}
-.col-11 {
-	width:91.66%
-}
-.col-12 {
-	width:100%
-}
-
-.line {
-    border-top-color: black;
-    border-top: 55px;
-    border-right: 0px;
-    border-left: 0px;
-    border-bottom: 0px;
-}
-
-.ninja-name {
-    text-align: right;
-    font: inherit;
-    font-size: 4em;
-    font-weight: 200;
-}
-
-.ninja-title {
-    text-align: right;
-    font: inherit;
-    font-size: 2em;
-    font-weight: 200;
+	background-color: #BCBBBB;
+	color: #BCBBBB;
+	height: 3px;
+	margin-bottom: 30px;
 }
