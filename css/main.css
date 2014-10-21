@@ -37,3 +37,37 @@ hr {
 
 /***************** media queries **********************/
 
+@media only screen and (max-width:500px){
+    body{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        color: black;
+        background-color: #e3e3e3;
+    }
+    .title-logo{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .title-super{
+        font-size: 40px;
+        font-weight: 300;
+        color: black;
+        text-align: center;
+    }
+
+    .text-secondary {
+        text-align: center;
+    }
+
+    .text-muted{
+        color: black;
+        text-align: center;
+    }
+}
+
+.text-secondary {
+
+}
