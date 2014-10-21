@@ -29,3 +29,11 @@ hr {
 	height: 3px;
 	margin-bottom: 30px;
 }
+
+.img-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/***************** media queries **********************/
+
