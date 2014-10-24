@@ -1,33 +1,33 @@
 body {
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	color: #747704;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #747704;
 }
 
-.text-muted{
-	color: #BCBBBB;
+.text-muted {
+    color: #bcbbbb;
 }
 
-.text-thin{
-	font-weight: 100;
-	color: #747704;
+.text-thin {
+    font-weight: 100;
+    color: #747704;
 }
 
-.title-super{
-	font-size: 50px;
+.title-super {
+    margin-top: 20px;
+    font-size: 50px;
 }
 
-.title-logo{
-	margin-top: 20px;
+.title-logo {
+    margin-top: 20px;
 }
 
 hr {
-	border: 0;
-	width: 100%;
-	background-color: #BCBBBB;
-	color: #BCBBBB;
-	height: 3px;
-	margin-bottom: 30px;
+    border: 0;
+    width: 100%;
+    background-color: #bcbbbb;
+    height: 3px;
+    margin-bottom: 30px;
 }
 
 .img-container {
@@ -35,24 +35,32 @@ hr {
     margin-left: auto;
 }
 
+.text-secondary {
+
+}
+
+.link-text {
+
+}
+
 /***************** media queries **********************/
 
-@media only screen and (max-width:500px){
-    body{
+@media only screen and (max-width: 500px) {
+
+    body {
         font-family: 'Lato', sans-serif;
         font-weight: 300;
         color: black;
         background-color: #e3e3e3;
     }
-    .title-logo{
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
 
+    .title-logo {
+        margin-top: 10px;
     }
 
-    .title-super{
-        font-size: 40px;
+    .title-super {
+        margin-top: 10px;
+        font-size: 22px;
         font-weight: 300;
         color: black;
         text-align: center;
@@ -60,14 +68,55 @@ hr {
 
     .text-secondary {
         text-align: center;
+        font-size: 15px;
+        font-weight: 300;
     }
 
-    .text-muted{
+    .text-muted {
         color: black;
         text-align: center;
     }
+
+    .link-text {
+        color: #000000;
+        font-weight: bold;
+    }
+
 }
 
-.text-secondary {
+@media only screen and (min-width: 501px) and (max-width: 992px) {
+
+    body {
+        font-family: 'Lato', sans-serif;
+        font-weight: 200;
+        background-color: #dff0fc;
+    }
+
+    .title-logo {
+        margin-top: 10px;
+
+    }
+
+    .title-super {
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 300;
+        color: black;
+        text-align: right;
+    }
+
+    .text-secondary {
+        text-align: right;
+    }
+
+    .text-muted {
+        color: black;
+        text-align: center;
+    }
+
+    .link-text {
+        color: #000000;
+        font-weight: bold;
+    }
 
 }

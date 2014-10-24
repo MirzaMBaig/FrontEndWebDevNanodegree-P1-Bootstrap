@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mirza Baig-FRONT END NINJA</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&amp;subset=latin,latin-ext">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/main.css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -19,66 +19,68 @@
 </head>
 <body>
 <div class="container">
-    <header class="row">
-        <div class="col-xs-12 col-md-6">
-            <img class="img-responsive title-logo" src="http://placehold.it/100x100">
-        </div>
-        <div class="col-xs-12 col-md-6 text-right text-uppercase">
-            <h1 class="text-thin title-super">Mirza Baig</h1>
-            <h4 class="text-secondary">Front-end Ninja</h4>
+    <header>
+        <div class="row">
+            <div class="col-xs-6 col-md-6">
+                <img class="img-responsive title-logo" src="http://placehold.it/100x100" alt="Logo">
+            </div>
+            <div class="col-xs-6 col-md-6 text-right text-uppercase">
+                <h1 class="text-thin title-super">Mirza Baig</h1>
+                <h4 class="text-secondary">Front-end Ninja</h4>
+            </div>
         </div>
     </header>
-    <div class="row">
-        <div class="col-md-12">
-            <hr>
-        </div>
-    </div>
-    <section class="row">
-        <div class="col-md-12">
-            <img class="img-responsive img-container" src="http://placehold.it/1140x350">
-        </div>
-    </section>
-    <section class="row">
-        <div class="col-md-12">
-            <h2 class="text-muted">Featured Work</h2>
-        </div>
-    </section>
-    <div class="row text-center text-uppercase color: #747704;">
-        <div class="col-md-6">
-            <div>
-                <img class="img-responsive img-container" data-toggle="modal" data-target="#portfolio1" src="http://placehold.it/555x300">
-                <h2>Appify</h2>
-                <p><a class="text-lowercase" class="text-lowercase" href="http://github.com">Link to project</a></p>
-            </div>
-            <div>
-                <img class="img-responsive img-container" data-toggle="modal" data-target="#portfolio2" src="http://placehold.it/555x300">
-                <h2>Appify</h2>
-                <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
             </div>
         </div>
-        <div class="col-md-6">
-            <div>
-                <img class="img-responsive img-container" data-toggle="modal" data-target="#portfolio3" src="http://placehold.it/555x300">
-                <h2>Appify</h2>
-                <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
-            </div>
-            <div>
-                <img class="img-responsive img-container" data-toggle="modal" data-target="#portfolio4" src="http://placehold.it/555x300">
-                <h2>Appify</h2>
-                <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
+        <div  class="row">
+            <div class="col-md-12">
+                <img class="img-responsive img-container" src="http://placehold.it/1140x350" alt="Banner">
             </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center text-uppercase">
+            <div class="col-md-6">
+                <div>
+                    <img class="img-responsive img-container" data-toggle="modal" data-target="#portfolio1" src="http://placehold.it/555x300"  alt="Featured Work">
+                    <h2>Appify</h2>
+                    <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
+                </div>
+                <div>
+                    <img class="img-responsive img-container" data-toggle="modal" data-target="#portfolio2" src="http://placehold.it/555x300" alt="Featured Work">
+                    <h2>Appify</h2>
+                    <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <img class="img-responsive img-container" data-toggle="modal" data-target="#portfolio3" src="http://placehold.it/555x300" alt="Featured Work">
+                    <h2>Appify</h2>
+                    <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
+                </div>
+                <div>
+                    <img class="img-responsive img-container" data-toggle="modal" data-target="#portfolio4" src="http://placehold.it/555x300" alt="Featured Work">
+                    <h2>Appify</h2>
+                    <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
+                </div>
+            </div>
+        </div>
     <!-- Modal 1-->
-    <div class="modal fade" id="portfolio1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="portfolio1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title">Portfolio 1</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive img-container" src="http://placehold.it/555x300">
+                    <img class="img-responsive img-container" src="http://placehold.it/555x300" alt="Featured Work">
                     <h3>Appify</h3>
                     <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
                     <p>
@@ -93,15 +95,15 @@
     </div>
 
     <!-- Modal 2-->
-    <div class="modal fade" id="portfolio2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="portfolio2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title">Portfolio 2</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive img-container" src="http://placehold.it/555x300">
+                    <img class="img-responsive img-container" src="http://placehold.it/555x300" alt="Featured Work">
                     <h3>Appify</h3>
                     <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
                     <p>
@@ -116,15 +118,15 @@
     </div>
 
     <!-- Modal 3-->
-    <div class="modal fade" id="portfolio3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="portfolio3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title">Portfolio 3</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive img-container" src="http://placehold.it/555x300">
+                    <img class="img-responsive img-container" src="http://placehold.it/555x300" alt="Featured Work">
                     <h3>Appify</h3>
                     <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
                     <p>
@@ -139,15 +141,15 @@
     </div>
 
     <!-- Modal 4-->
-    <div class="modal fade" id="portfolio4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="portfolio4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title">Portfolio 4</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive img-container" src="http://placehold.it/555x300">
+                    <img class="img-responsive img-container" src="http://placehold.it/555x300" alt="Featured Work">
                     <h3>Appify</h3>
                     <p><a class="text-lowercase" href="http://github.com">Link to project</a></p>
                     <p>
